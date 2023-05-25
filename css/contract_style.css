@@ -1,0 +1,168 @@
+.contract-container {
+    width: 95%; 
+    margin: 10px auto; 
+    overflow-y: auto; 
+    max-height: 500px; 
+}
+
+.contract-card {
+    background-color: #ffffff; 
+    box-shadow: 0 1px 5px rgba(0,0,0,0.15); 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+    transition: box-shadow 0.3s ease; 
+}
+
+.contract-card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); 
+}
+
+.contract-header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 15px; 
+    border-bottom: 1px solid #dddddd; 
+}
+
+.contract-header h5 {
+    margin: 0; 
+}
+
+.arrow-button {
+    font-size: 24px; 
+    cursor: pointer; 
+    transition: transform 0.3s; 
+}
+
+.update-button {
+    margin-left: 15px;
+}
+
+.contract-body {
+    display: none; 
+    padding: 15px; 
+}
+
+.contract-info {
+    display: grid;
+    grid-template-columns: 0.85fr 0.85fr 0.85fr 0.85fr;
+    align-items: center;
+    justify-items: start;
+}
+
+.contract-info div {
+    flex: 1 0 30%; 
+    margin: 5px 0; 
+}
+
+.contract-label {
+    font-weight: bold; 
+    margin-bottom: 5px; 
+    display: block; 
+}
+
+.contract-value {
+    margin: 0; 
+}
+.card-header-content {
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.card-header-content {
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+    align-items: center;
+    justify-items: start;
+}
+
+/* Styles for the search area */
+/* Styles for the search area */
+.search-area {
+    position: relative;
+    display: inline-block;
+    text-align: right;
+  }
+  
+/* Styles for the search area */
+/* Styles for the search area */
+.search-area {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-left: 25px;
+  }
+  
+  /* Styles for the search input */
+  .search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  /* Styles for the search icon */
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #999;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .search-icon i {
+    font-size: 20px;
+  }
+  
+  /* Hover effect for the search icon */
+  .search-icon:hover {
+    color: #333;
+  }
+  
+  /* Focus styles for the search input */
+  .search-input:focus {
+    outline: none;
+    box-shadow:2.5px 2.5px rgb(126, 117, 225);
+  }
+  
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .notification {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+  }
+  
+  .notification:hover {
+    background: red;
+  }
+#badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+  }
+  .card-body {
+    width: 100%;
+  }
+  
+  .card-body .row > div {
+    width: 100%;
+  }

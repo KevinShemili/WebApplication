@@ -1,0 +1,159 @@
+#employee-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2.5em;
+    padding: 1.5em;
+    background-color: #f7f7f7;
+    width:100%;
+  }
+  
+  .employee-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    padding: 1em;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .employee-card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+  }
+  
+  .employee-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 1em;
+  }
+  
+  .employee-card h2 {
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .employee-card p {
+    margin-bottom: 1em;
+    color: #666;
+  }
+  
+  .employee-card button {
+    background-color: #5C6BC0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .employee-card button:hover {
+    background-color: #3949AB;
+  }
+  .employeers_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+  }
+  #Add_employee{
+    background-color: #54b156;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 10px;
+
+  }
+  #Add_employee:hover{
+    background-color: #28842a;
+    color: white;
+
+   
+
+  }
+
+  .Remove_employee{
+    background-color: #d84444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 10px;
+
+
+  }
+  .Remove_employee:hover{
+    background-color: #dd2222;
+    color: white;
+   
+
+  }
+
+
+  .Cancel_employee{
+    background-color: #517ed7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 10px;
+    display: none;
+
+
+  }
+  .Cancel_employee:hover{
+    background-color: #1b4ad6;
+    color: white;
+   
+
+  }
+
+
+
+  .Archive_Employee{
+    background-color: #e4a859;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 10px;
+
+
+  }
+  .Archive_Employee:hover{
+    background-color: #a85710;
+    color: white;
+   
+
+  }
+
+
+
+
+
+ .employee-card {
+  transition: background-color 0.35s ease;
+}
+
+.employee-card.shake-animation {
+  animation: shake 0.35s ease-in-out infinite;
+  transform-origin: center center;
+}
+
+@keyframes shake {
+  0% { transform: rotate(-1deg); }
+  50% { transform: rotate(1deg); }
+  100% { transform: rotate(-1deg); }
+}
