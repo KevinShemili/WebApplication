@@ -109,7 +109,7 @@ if (isset($_SESSION["user_id"])) {
                             <div data-i18n="Basic">Add New Project</div>
                         </a>
                     </li>
-                    <li class="menu-item active">
+                    <li class="menu-item ">
                         <a href="Admin_Employee_Section.php" class="menu-link">
                             <i class="menu-icon tf-icons bx bx-male "></i>
                             <div data-i18n="Analytics">Employees</div>
@@ -261,7 +261,6 @@ if (isset($_SESSION["user_id"])) {
                 <footer class="content-footer footer bg-footer-theme">
                     <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
                         <div class="mb-2 mb-md-0">
-                            Software Engineering Project
                         </div>
                     </div>
                 </footer>
